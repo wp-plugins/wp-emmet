@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is an awesome `[Emmet](http://emmet.io/)` plugin!
+Emmet (ex-Zen Coding) for WordPress.
 
 == Description ==
 
