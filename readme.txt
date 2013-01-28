@@ -11,9 +11,9 @@ Emmet (ex-Zen Coding) for WordPress.
 
 == Description ==
 
-When you post an article, you can use the `Emmet` in the post editor.
+When you post an article, you can use the [Emmet](http://emmet.io/) in the post editor.
 
-Thanks for [Emmet](http://emmet.io/).
+[Fork me on GitHub](https://github.com/rewish/wp-emmet) :)
 
 == Installation ==
 
