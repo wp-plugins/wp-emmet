@@ -11,11 +11,7 @@ Emmet (ex-Zen Coding) for WordPress.
 
 == Description ==
 
-You can use the [Emmet](http://emmet.io/) in admin page.
-
-Support the Code coloring by CodeMirror.
-
-Try it!
+Would you like to use the [Emmet](http://emmet.io/) in admin page? This plugin will support it!
 
 [Fork me on GitHub](https://github.com/rewish/wp-emmet) :)
 
@@ -27,12 +23,12 @@ e.g.
 
 1. Upload `wp-emmet` directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. `Emmet` is available in the post editor
+3. The Emmet is available in admin page
 
 == Changelog ==
 
 = 0.2 =
-* Support the Code coloring by CodeMirror
+* Support the Code coloring by [CodeMirror](http://codemirror.net/)
 
 = 0.1.2 =
 * Fix "Add Media" button doesn't works
