@@ -11,7 +11,7 @@ Emmet (ex-Zen Coding) for WordPress.
 
 == Description ==
 
-Would you like to use the [Emmet](http://emmet.io/) in admin page? This plugin will support it!
+Do you want to use the [Emmet](http://emmet.io/) in admin page? This plugin will support it!
 
 [Fork me on GitHub](https://github.com/rewish/wp-emmet) :)
 
