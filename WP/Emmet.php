@@ -76,31 +76,19 @@ class WP_Emmet {
 	 * Constructor
 	 */
 	public function __construct() {
-		$this->setupActions();
-	}
-
-	/**
-	 * Initialize
-	 */
-	public function init() {
 		$this->Lang = new WP_Emmet_Lang();
 		$this->Options = new WP_Emmet_Options();
 		$this->CodeMirror = new WP_Emmet_CodeMirror();
-		$this->migrate();
-	}
 
-	/**
-	 * Migrate
-	 */
-	public function migrate() {
 		WP_Emmet_Migration::migrate($this);
+
+		$this->registerHooks();
 	}
 
 	/**
-	 * Setup actions
+	 * Register hooks
 	 */
-	public function setupActions() {
-		add_action('init', array($this, 'init'));
+	public function registerHooks() {
 		add_action('admin_print_styles', array($this, 'printStyles'));
 		add_action('admin_enqueue_scripts', array($this, 'enqueueScripts'));
 		add_action('admin_print_footer_scripts', array($this, 'applyScripts'), 1);

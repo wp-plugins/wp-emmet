@@ -113,6 +113,9 @@
 		</p>
 	</form>
 
+	<h3><?php _e('Bug reports', $domain); ?></h3>
+	<p><?php printf(__('Please create an issue on %s.', $domain), '<a href="https://github.com/rewish/wp-emmet/issues" target="_blank">GitHub Issues</a>'); ?></p>
+
 	<h3><?php _e('Test the Emmet', $domain); ?></h3>
 	<div>
 		<textarea rows="20" cols="80">.section>p>span+em^^^bq
@@ -123,7 +126,7 @@ p*2>lorem
 
 &lt;style&gt;
 w100p
-m10p30e5x
+m10p30e5px
 &lt;/style&gt;</textarea>
 	</div>
 </div>
