@@ -37,7 +37,7 @@ class WP_Emmet_Options {
 	 */
 	public function load() {
 		return array_merge(array(
-			'use_codemirror' => '1',
+			'use_codemirror' => '0',
 
 			'profile' => 'html',
 
@@ -250,8 +250,8 @@ class WP_Emmet_Options {
 		// Shortcuts
 		foreach ($options['shortcuts'] as $type => $shortcutKey) {
 			$options['shortcuts'][$type] = str_replace(
-				array('+', 'Meta', 'Cmd-Shift'),
-				array('-', 'Cmd', 'Shift-Cmd'),
+				array('+', 'Meta', 'Cmd-Shift', 'Alt-Cmd', 'Alt-Shift'),
+				array('-', 'Cmd', 'Shift-Cmd', 'Cmd-Alt', 'Shift-Alt'),
 				$shortcutKey
 			);
 		}

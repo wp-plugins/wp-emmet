@@ -27,6 +27,9 @@ e.g.
 
 == Changelog ==
 
+= 0.2.2 =
+* Fix a bug of shortcuts that occurs when `enable` the Code coloring
+
 = 0.2.1 =
 * Fix localization doesn't works
 * Fix save on fullscreen mode doesn't works
@@ -43,4 +46,3 @@ e.g.
 
 = 0.1 =
 * Initial release
-
